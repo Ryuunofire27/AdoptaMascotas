@@ -1,0 +1,106 @@
+#header{
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	background-color: #8FF77E;
+}
+
+#titulo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.titulo{
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-name: ocultar-titulo;
+}
+
+
+#nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#contenedor-img{
+	width: 300px;
+}
+
+#logo{
+	margin-left: 10%;
+	border-radius: 100%;
+	width: 42px;
+	height: 42px;
+}
+
+#perfil{
+	margin-left: 25%;
+	border-radius: 100%;
+	width: 42px;
+	height: 42px;
+}
+
+#contenedor-input{
+	width: 500px;
+	float: left;
+}
+
+#buscar{
+	width: 100%;
+	border-radius: 1em;
+	height: 30px;
+}
+
+#contenedor-notif{
+	width: 300px;
+}
+
+#notifMessage{
+	border-radius: 100%;
+	margin-left: 70%;
+	background-color: #D0A9F5;
+}
+
+#notifMessage:hover{
+	background-color: #E3CEF6;
+}
+
+#animacion{
+	height: 48px;
+	width: 48px;
+	animation: App-logo-spin infinite 5s linear;
+}
+
+#notif-mgn{
+	display: none;
+	position: fixed;
+	width: 300px;
+	height: 400px;
+	background-color: white;
+}
+
+#informacion{
+	width: 280px;
+	height: 350px;
+	margin: auto;
+	overflow: scroll;
+	background-color: cyan;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes ocultar-titulo{
+	0%{
+		display: block;
+	}
+
+	100%{
+		display: none;
+	}
+}
